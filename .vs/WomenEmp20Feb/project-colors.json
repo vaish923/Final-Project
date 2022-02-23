@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "79bf586c-4e50-4fd6-8b3c-f30117f811b5": {
+      "ProjectGuid": "79bf586c-4e50-4fd6-8b3c-f30117f811b5",
+      "DisplayName": "WomenEmp20Feb",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

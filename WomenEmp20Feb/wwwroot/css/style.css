@@ -1,0 +1,390 @@
+* {
+  text-decoration: none;
+
+  /* background-color: white; */
+  color: black;
+}
+
+.MWCDtitle {
+  text-align: center;
+  margin: 24px 0px -10px 0px;
+  float: right;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-right: 230px;
+}
+
+.middlecolor {
+  background-color: #dbdbdb69;
+}
+.main-div-border {
+  /*  border: 2px solid;
+  border-radius: 5px; */
+  height: auto;
+  width: auto;
+}
+.div1 {
+  margin: 5px;
+  padding: 10px;
+  background-color: #505d61;
+
+  /* border: 1px solid;
+    border-color: black; 
+  border-radius: 5px;*/
+}
+.div2 {
+  margin: 5px;
+  padding: 10px;
+  background-color: darkseagreen;
+
+  /*  border: 1px solid;
+ border-color: black;
+  border-radius: 5px; */
+}
+.div2 a:hover {
+  color: #ffff;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.heading {
+    background-color: #505d61;
+    color: #ffffff;
+    font-size: 15px;
+}
+.menu-div {
+    margin: 5px;
+    padding: 10px;
+    background-color: #505d61;
+    color: #ffffff;
+    font-size: 15px;
+    /*  border: 1px solid;
+  border-color: black;
+
+  border-radius: 5px; */
+}
+.menu-div a:hover {
+  color: #ffff;
+}
+.close {
+  margin: 5px;
+  padding: 10px;
+}
+.access {
+  margin: 5px;
+  margin-top: 125px;
+  margin-left: 125px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 5px;
+  height: 400px;
+  width: 80%;
+  background-color: eb8888;
+}
+.login {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 5px;
+  float: left;
+  width: 45%;
+  height: 370px;
+  background-color: eb8888;
+}
+.login-top-gap {
+  margin-top: 30px;
+  margin-left: 180px;
+}
+.register {
+  background-color: eb8888;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 5px;
+  float: right;
+  width: 45%;
+  height: 370px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#container {
+  margin: 5px;
+  padding: 2px 3px 3px 3px;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 120px;
+  color: black;
+  /* margin: 0 auto; */
+}
+
+nav {
+  margin: 35px 0;
+  margin-left: 80px;
+  background-color: eb8888;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+nav ul li {
+  display: inline-block;
+  background-color: eb8888;
+}
+nav a {
+  display: block;
+  padding: 0 10px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: FFFFFF;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+nav ul li:hover > ul {
+  display: inherit;
+}
+nav ul ul li {
+  width: 230px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 230px;
+}
+nav ul ul li {
+  border: 1px solid white;
+}
+li > a:after {
+  content: " ▼";
+}
+li > a:only-child:after {
+  content: "";
+}
+
+#about p,
+ul {
+  font-family: "Poppins", sans-serif;
+  color: black !important;
+  font-size: 14px;
+  font-weight: 200px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+/* Start Footer CSS */
+.site-footer {
+  margin: 5px;
+  padding: 10px;
+  background-color: #8fbc8f;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #000000;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #505d61;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+/* End of Footer CSS  */
+
+/* Start of Hover underline styling  */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+
+  transform-origin: bottom left;
+}
+
+/*  End of Hover underline styling */
+
+/* Start Image center styling */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* End of Image center styling */
+
+/*Start of Forefinger Adding on faq */
+.hand {
+  cursor: pointer;
+}
+/*End of Forefinger Adding on faq */
+
+.fontsize{
+    font-size:15px;
+}
+
