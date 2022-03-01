@@ -1,0 +1,49 @@
+1) Empid-46157990  
+   Name  -Nargis Metkari 
+   UnderStanding Project-  UI implementation & User Authentication with MVC Framework                
+   Ability to Apply Concepts- yes             
+   Technical Knowledge-HTML/CSS, MVCFramework,Bootstrap,EntityFramework,SQL
+
+2) Empid-46157762 
+   Name - Shivani Bhavsar
+   UnderStanding Project-  UI implementation & User Authentication with MVC Framework           
+   Ability to Apply Concepts- yes             
+   Technical Knowledge-HTML/CSS, MVCFramework,Bootstrap,EntityFramework,SQL
+
+3)  Empid-46143014  
+    Name - Gauri Deo
+    UnderStanding Project- UI implementation & User Authentication with MVC Framework                
+    Ability to Apply Concepts- yes             
+    Technical Knowledge-HTML/CSS, MVCFramework,Bootstrap,EntityFramework,SQL
+
+
+4)  Empid-46154863  
+    Name - Km.Priyanka 
+    UnderStanding Project-  UI implementation & User Authentication with MVC Framework                
+    Ability to Apply Concepts- yes             
+    Technical Knowledge-HTML/CSS, MVCFramework,EntityFramework,SQL,Documentation
+
+5)  Empid-46144765 
+    Name - Vaishali Sharma
+    UnderStanding Project- saving and retrieving through database & displaying in MVC project or Blazor understanding               
+    Ability to Apply Concepts- yes             
+    Technical Knowledge-HTML/CSS, MVCFramework,EntityFramework,SQL,ADO.Net,WebAPI
+
+6)  Empid- 46138990
+    Name - Malik Rehan karol
+    UnderStanding Project- Database designing and normalization                
+    Ability to Apply Concepts- yes             
+    Technical Knowledge- MVCFramework,Bootstrap,EntityFramework,SQL,ADO.Net,UML
+
+7)  Empid- 46157176 
+    Name - Satyam
+    UnderStanding Project- UI implementation & User Authentication with MVC Framework               
+    Ability to Apply Concepts- yes             
+    Technical Knowledge-HTML/CSS, MVCFramework,Bootstrap,EntityFramework,SQL
+
+
+
+
+
+
+
