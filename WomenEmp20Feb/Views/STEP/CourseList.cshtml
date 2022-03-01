@@ -1,0 +1,76 @@
+﻿@model IEnumerable<WomenEmp20Feb.Models.Course>
+
+@{
+    Layout = "STEPLayout";
+    ViewData["Title"] = "CourseList";
+}
+
+<div class="container middlecolor">
+<div class="row">
+<h1 align="center">Course List</h1><br />
+<table class="table">
+    <thead>
+        <tr>
+            <th class="fontsize">
+                @Html.DisplayNameFor(model => model.CourseName)
+            </th>
+            <th class="fontsize">
+                @Html.DisplayNameFor(model => model.CourseDescription)
+            </th >
+            <th class="fontsize">
+                @Html.DisplayNameFor(model => model.CourseStartDate)
+            </th>
+            <th class="fontsize">
+                @Html.DisplayNameFor(model => model.CourseEndDate)
+            </th>
+            <th class="fontsize">
+                @Html.DisplayNameFor(model => model.IntitialSeats)
+            </th>
+           @* <th class="fontsize">
+                @Html.DisplayNameFor(model => model.Currentseats)
+            </th>*@
+           
+            <th class="fontsize">Enroll</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="fontsize">
+                @Html.DisplayFor(modelItem => item.CourseName)
+            </td>
+            <td class="fontsize">
+                @Html.DisplayFor(modelItem => item.CourseDescription)
+            </td>
+            <td class="fontsize">
+                @Html.DisplayFor(modelItem => item.CourseStartDate)
+            </td>
+            <td class="fontsize">
+                @Html.DisplayFor(modelItem => item.CourseEndDate)
+            </td>
+            <td class="fontsize">
+                @Html.DisplayFor(modelItem => item.IntitialSeats)
+            </td>
+           @* <td class="fontsize">
+                @Html.DisplayFor(modelItem => item.Currentseats)
+            </td>*@
+           
+            <td class="fontsize">
+               @* @using (Html.BeginForm("CourseList", "STEP", FormMethod.Post))
+                {
+                    
+                    <input type="submit" name="Enroll" value="Enroll" />
+
+                }*@
+
+                <a asp-action="Enroll" asp-route-id="@item.CourseId">Enroll</a> 
+
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>
+

@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+@using Microsoft.AspNetCore.Http;
 
 <html>
 <head>
@@ -29,13 +30,13 @@
 	<div class="main-div-border">
         <div class="div1">
             <a class="heading" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-			@if(ViewBag.Session==null)
+			@if(Context.Session.GetString("NGOid")==null)
 			{
-				<a class="heading" asp-area="" asp-controller="Main" asp-action="Login" style="float: right; padding-right: 7px;"> Log In &nbsp&nbsp</a>
+				<a class="heading" asp-area="" asp-controller="NGO" asp-action="NGOLogin" style="float: right; padding-right: 7px;"> Log In &nbsp&nbsp</a>
 			}
 
 			else{
-		 	<a class="heading" asp-area="" asp-controller="Home" asp-action="Index" style="float: right; padding-right: 7px;"> Log Out &nbsp&nbsp</a>
+		 	<a class="heading" asp-area="" asp-controller="NGO" asp-action="Logout" style="float: right; padding-right: 7px;"> Log Out &nbsp&nbsp</a>
 			}
 			 <a class="heading" asp-area="" asp-controller="Home" asp-action="ContactUs" style="float: right;">Contact Us &nbsp &nbsp</a>
         </div>
@@ -46,10 +47,19 @@
         </div>
         <div class="menu-div">
 			<a class="menu-div  "  style="margin-right: 60px;margin-left: 24px;" asp-area="" asp-controller="NGO" asp-action="Index">CRITERIA</a>
-			<a  class="menu-div " style="margin-right: 130px;" asp-area="" asp-controller="NGO" asp-action="Index"> ORGANIZATIONS </a>
-			<a class="menu-div"  style="margin-right: 130px;" asp-area="" asp-controller="NGO" asp-action="Index">FUNDING NORMS </a>
-			<a class="menu-div" style="margin-right: 130px;" asp-area="" asp-controller="NGO" asp-action="Index">REGISTER </a>
-			<a class="menu-div" style="margin-right: 130px;" asp-area="" asp-controller="NGO" asp-action="Index">STATUS</a>
+			<a  class="menu-div " style="margin-right: 100px;" asp-area="" asp-controller="NGO" asp-action="NGOList"> ORGANIZATIONS </a>
+			<a  class="menu-div " style="margin-right: 100px;" asp-area="" asp-controller="NGO" asp-action="CourseList"> COURSES </a>
+			<a class="menu-div"  style="margin-right: 100px;" asp-area="" asp-controller="NGO" asp-action="NGOFunding">FUNDING NORMS </a>
+			@if (Context.Session.GetString("NGOid") == null)
+			{
+				<a class="menu-div" style="margin-right: 100px;" asp-area="" asp-controller="NGO" asp-action="Register">Register </a>
+			}
+			else
+			@if(Context.Session.GetString("status")=="approved"){
+				<a class="menu-div" style="margin-right: 100px;" asp-area="" asp-controller="NGO" asp-action="Create">Add Course </a>
+			}
+			
+			<a class="menu-div" style="margin-right: 100px;" asp-area="" asp-controller="NGO" asp-action="GetNgoByIdStatus">STATUS</a>
 			<a class="menu-div" asp-area="" asp-controller="NGO" asp-action="FAQ">FAQ</a>
            
         </div>
@@ -120,5 +130,9 @@
 			</div>
 		</div>
 	</footer>
+	 <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

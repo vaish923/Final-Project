@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Objects;
+using System.Data.Entity.Infrastructure;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using WomenEmp20Feb.Models;
@@ -340,5 +343,16 @@ namespace WomenEmp20Feb.Models
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 
         public DbSet<WomenEmp20Feb.Models.Login> Login { get; set; }
+
+        public DbSet<WomenEmp20Feb.Models.NGOLogin> NGOLogin { get; set; }
+
+        public virtual ObjectResult<getAllEnrollmentsById_Result> getAllEnrollmentsById(Nullable<int> women_id)
+        {
+            var women_idParameter = women_id.HasValue ?
+                new ObjectParameter("women_id", women_id) :
+                new ObjectParameter("women_id", typeof(int));
+
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<getAllEnrollmentsById_Result>("getAllEnrollmentsById", women_idParameter);
+        }
     }
 }

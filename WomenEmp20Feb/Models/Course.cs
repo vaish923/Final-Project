@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace WomenEmp20Feb.Models
 {
@@ -13,7 +14,10 @@ namespace WomenEmp20Feb.Models
         public int CourseId { get; set; }
         public string CourseName { get; set; } = null!;
         public string? CourseDescription { get; set; }
+
+        [DataType(DataType.Date)]
         public DateTime CourseStartDate { get; set; }
+        [DataType(DataType.Date)]
         public DateTime CourseEndDate { get; set; }
         public int IntitialSeats { get; set; }
         public float? Currentseats { get; set; }

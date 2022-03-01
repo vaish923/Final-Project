@@ -43,6 +43,30 @@ namespace WomenEmp20Feb.Controllers
 
         #endregion
 
+        #region Registeration of Women
+        [HttpGet]
+        public IActionResult Register2()
+        {
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Register2(Woman w)
+        {
+
+            db.Women.Add(w);
+            db.SaveChanges();
+
+
+            ViewBag.message = "Successfully stored";
+            return RedirectToAction("Login", "Main");
+
+
+        }
+
+        #endregion
+
         #region login
 
         [HttpGet]

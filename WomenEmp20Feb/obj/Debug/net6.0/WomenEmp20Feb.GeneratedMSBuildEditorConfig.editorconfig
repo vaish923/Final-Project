@@ -51,12 +51,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxSZWdpc3RlcjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/CourseList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXENvdXJzZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/FAQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXEZBUS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/GetNgoByIdStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXEdldE5nb0J5SWRTdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/NGOFunding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXE5HT0Z1bmRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/NGOList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXE5HT0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/NGOLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXE5HT0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/NGO/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkdPXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/Shared/Error.cshtml]
@@ -83,6 +115,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1RFUFxDb250YWN0VXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/STEP/CourseList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1RFUFxDb3Vyc2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/STEP/CourseList2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1RFUFxDb3Vyc2VMaXN0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/STEP/EnrollmentStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1RFUFxFbnJvbGxtZW50U3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/STEP/FAQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1RFUFxGQVEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -93,6 +137,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/STEP/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1RFUFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/STEP/WomanDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1RFUFxXb21hbkRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Asp.Net/WomenEmp20Feb/WomenEmp20Feb/Views/_ViewImports.cshtml]

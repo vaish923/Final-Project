@@ -1,0 +1,58 @@
+﻿
+
+@{
+    Layout = "STEPLayout";
+    ViewData["Title"] = "EnrollmentStatus";
+}
+<div class="container middlecolor">
+<div class="row">
+<h1>EnrollmentStatus</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+           <th class="fontsize">
+                Name
+            </th>
+            <th class="fontsize">
+                Course Name
+            </th>
+            <th class="fontsize">
+                Enrollment Date
+            </th>
+            <th class="fontsize">
+                Approval Status
+            </th>
+            <th class="fontsize">
+                Approval Date
+            </th>
+            
+        </tr>
+    </thead> 
+    <tbody>
+
+@foreach (var item in ViewBag.Status) {
+        <tr>
+           <td class="fontsize">
+               @item.Women_name
+            </td>
+            <td class="fontsize">
+                @item.CourseName
+            </td>
+           <td class="fontsize">
+                @item.Date
+            </td>
+            <td class="fontsize">
+                @item.ApprovalStatus
+            </td>
+            <td class="fontsize">
+                @item.ApprovalDate
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>

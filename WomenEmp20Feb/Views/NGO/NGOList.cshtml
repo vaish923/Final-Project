@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WomenEmp20Feb.Models.Ngo>
+
+@{
+    Layout = "NGOLayout";
+    ViewData["Title"] = "NGOList";
+}
+<div class="container middlecolor">
+<div class="row">
+<h1 align="center">NGO Organizations</h1><br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="fontsize">
+                <h3>NGO's Name</h3>
+            </th>
+            <th class="fontsize">
+                 <h3>Contact Person</h3>
+            </th>
+            <th class="fontsize">
+                 <h3>Contact Number</h3>
+            </th>
+            <th class="fontsize">
+                <h3>Address</h3>
+            </th>
+            <th class="fontsize">
+                <h3>City</h3>
+            </th>
+            <th class="fontsize">
+                <h3>State</h3>
+            </th>
+            <th class="fontsize">
+                <h3>Description</h3>
+            </th>
+            <th class="fontsize">
+                <h3>Email</h3>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="fontsize">
+                <h5>@Html.DisplayFor(modelItem => item.NgoName) </h5>
+            </td>
+            <td class="fontsize">
+                <h5>@Html.DisplayFor(modelItem => item.ContactPerson) </h5>
+            </td>
+            <td class="fontsize">
+               <h5> @Html.DisplayFor(modelItem => item.NgoContactNumber) </h5>
+            </td>
+            <td class="fontsize">
+              <h5> @Html.DisplayFor(modelItem => item.NgoAddress) </h5> 
+            </td>
+            <td class="fontsize">
+                <h5>@Html.DisplayFor(modelItem => item.NgoCity) </h5>
+            </td>
+            <td class="fontsize">
+              <h5> @Html.DisplayFor(modelItem => item.NgoState) </h5> 
+            </td>
+            <td class="fontsize">
+               <h5> @Html.DisplayFor(modelItem => item.NgoDescription) </h5>
+            </td>
+            <td class="fontsize">
+               <h5> @Html.DisplayFor(modelItem => item.NgoEmail) </h5>
+            </td>
+           
+           @* <td>
+                <a asp-action="Edit" asp-route-id="@item.NgoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NgoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NgoId">Delete</a>
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>

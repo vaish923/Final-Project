@@ -393,3 +393,7 @@ li > a:only-child:after {
     cursor: pointer;
 }
 /*End of Forefinger Adding on faq */
+
+.fontsize {
+    font-size: 15px;
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9AJcQ95m01G1fTKf2cBuQNsbPKkr97zFWF+po+zzr7o=",
+  "Hash": "ZH3OwusmMZWDIV/+aioO/dqWeoTx0WYqsKuVE1X23sY=",
   "Source": "WomenEmp20Feb",
   "BasePath": "_content/WomenEmp20Feb",
   "Mode": "Default",
@@ -338,6 +338,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\NGO1.jpg"
+    },
+    {
+      "Identity": "D:\\Asp.Net\\WomenEmp20Feb\\WomenEmp20Feb\\wwwroot\\images\\ngologin.jpg",
+      "SourceId": "WomenEmp20Feb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net\\WomenEmp20Feb\\WomenEmp20Feb\\wwwroot\\",
+      "BasePath": "_content/WomenEmp20Feb",
+      "RelativePath": "images/ngologin.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ngologin.jpg"
+    },
+    {
+      "Identity": "D:\\Asp.Net\\WomenEmp20Feb\\WomenEmp20Feb\\wwwroot\\images\\ngoreg.jpg",
+      "SourceId": "WomenEmp20Feb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net\\WomenEmp20Feb\\WomenEmp20Feb\\wwwroot\\",
+      "BasePath": "_content/WomenEmp20Feb",
+      "RelativePath": "images/ngoreg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ngoreg.jpg"
     },
     {
       "Identity": "D:\\Asp.Net\\WomenEmp20Feb\\WomenEmp20Feb\\wwwroot\\images\\register.jpg",

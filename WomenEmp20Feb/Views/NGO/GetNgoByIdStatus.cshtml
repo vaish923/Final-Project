@@ -1,0 +1,82 @@
+﻿@model WomenEmp20Feb.Models.Ngo
+
+@{
+    Layout = "NGOLayout";
+    ViewData["Title"] = "GetNgoByIdStatus";
+}
+<div class="container middlecolor">
+<div class="row">
+<div>
+    <h4 align="center">Ngo Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.NgoName)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.NgoName)
+        </dd>
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.ContactPerson)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.ContactPerson)
+        </dd>
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.NgoContactNumber)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.NgoContactNumber)
+        </dd>
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.NgoAddress)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.NgoAddress)
+        </dd>
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.NgoCity)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.NgoCity)
+        </dd>
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.NgoState)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.NgoState)
+        </dd>
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.NgoDescription)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.NgoDescription)
+        </dd>
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.NgoEmail)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.NgoEmail)
+        </dd>
+        
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.NgoSupportingdocument)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+            @Html.DisplayFor(model => model.NgoSupportingdocument)
+        </dd>
+        
+        <dt class = "col-sm-2 fontsize">
+            @Html.DisplayNameFor(model => model.Approvedstatus)
+        </dt>
+        <dd class = "col-sm-10 fontsize">
+           <b><u> @Html.DisplayFor(model => model.Approvedstatus) </u></b>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="fontsize" asp-action="Edit" asp-route-id="@Model?.NgoId">Edit</a> |
+    
+</div>
+</div>
+</div>

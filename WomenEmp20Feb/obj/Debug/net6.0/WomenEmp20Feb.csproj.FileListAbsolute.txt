@@ -7,7 +7,6 @@ D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\WomenEmp20Feb.runtimecon
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\WomenEmp20Feb.dll
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\ref\WomenEmp20Feb.dll
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\WomenEmp20Feb.pdb
-D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\obj\Debug\net6.0\WomenEmp20Feb.csproj.AssemblyReference.cache
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\obj\Debug\net6.0\WomenEmp20Feb.GeneratedMSBuildEditorConfig.editorconfig
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\obj\Debug\net6.0\WomenEmp20Feb.AssemblyInfoInputs.cache
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\obj\Debug\net6.0\WomenEmp20Feb.AssemblyInfo.cs
@@ -261,3 +260,15 @@ D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\dotnet-aspnet-codegenera
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\obj\Debug\net6.0\WomenEmp20Feb.csproj.AssemblyReference.cache
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\EntityFramework.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\System.CodeDom.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Asp.Net\WomenEmp20Feb\WomenEmp20Feb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

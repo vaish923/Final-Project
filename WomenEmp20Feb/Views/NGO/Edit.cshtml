@@ -1,0 +1,256 @@
+﻿@model WomenEmp20Feb.Models.Ngo
+
+@{
+     Layout = "NGOLayout";
+    ViewData["Title"] = "Edit";
+}
+
+<hr />
+
+ <section class="" style="background-color: #eee;">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-black" style="border-radius: 25px;">
+          <div class="card-body p-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-12 col-lg-12 col-xl-12 order-2 order-lg-1">
+
+                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">NGO Editing</p>
+
+                <form class="mx-1 mx-md-4"asp-action="Edit">
+                    <input type="hidden" asp-for="NgoId" />
+                    <div class="col-lg-6">
+            <div asp-validation-summary="ModelOnly" class="text-danger fontsize"></div>
+                  <div class="d-flex flex-row align-items-center mb-6">
+                    
+                    <div class="form-outline flex-fill mb-0 ">
+                       <label asp-for="NgoName" class="control-label fontsize"></label>
+                <input asp-for="NgoName" class="form-control fontsize" />
+                <span asp-validation-for="NgoName" class="text-danger fontsize"></span>
+                       
+                    </div>
+                  </div>
+                  <br />
+                  <div class="d-flex flex-row align-items-center mb-6">
+                    
+                    <div class="form-outline flex-fill mb-0">
+                       <label asp-for="ContactPerson" class="control-label fontsize"></label>
+                <input asp-for="ContactPerson" class="form-control fontsize" />
+                <span asp-validation-for="ContactPerson" class="text-danger fontsize"></span>
+                        
+                    </div>
+                  </div>
+                  <br />
+                  <div class="d-flex flex-row align-items-center mb-6">
+                   
+                    <div class="form-outline flex-fill mb-0">
+                       <label asp-for="NgoContactNumber" class="control-label fontsize"></label>
+                <input asp-for="NgoContactNumber" class="form-control fontsize" />
+                <span asp-validation-for="NgoContactNumber" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+                 
+                  <div class="d-flex flex-row align-items-center mb-6">
+                   
+                    <div class="form-outline flex-fill mb-0">
+                        <label asp-for="NgoEmail" class="control-label fontsize"></label>
+                <input asp-for="NgoEmail" class="form-control fontsize" />
+                <span asp-validation-for="NgoEmail" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+
+                   <div class="d-flex flex-row align-items-center mb-6">
+                   
+                    <div class="form-outline flex-fill mb-0">
+                        <label asp-for="NgoPassword" class="control-label fontsize"></label>
+                <input asp-for="NgoPassword" type="password" class="form-control fontsize" />
+                <span asp-validation-for="NgoPassword" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+
+                  <div class="d-flex flex-row align-items-center mb-6">
+                   
+                    <div class="form-outline flex-fill mb-0">
+                         <label asp-for="NgoSupportingdocument" class="control-label fontsize"></label>
+                <input asp-for="NgoSupportingdocument" class="form-control fontsize" />
+                <span asp-validation-for="NgoSupportingdocument" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+
+                </div>
+
+
+                <div class="col-lg-6">
+                  <div class="d-flex flex-row align-items-center mb-6">
+                   
+                    <div class="form-outline flex-fill mb-0">
+                        <label asp-for="NgoCity" class="control-label fontsize"></label>
+                <input asp-for="NgoCity" class="form-control fontsize" />
+                <span asp-validation-for="NgoCity" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+
+                   <div class="d-flex flex-row align-items-center mb-6">
+                   
+                    <div class="form-outline flex-fill mb-0">
+                       <label asp-for="NgoState" class="control-label fontsize"></label>
+                <input asp-for="NgoState" class="form-control fontsize" />
+                <span asp-validation-for="NgoState" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+
+                   <div class="d-flex flex-row align-items-center mb-6">
+                   
+                    <div class="form-outline flex-fill mb-0">
+                        <label asp-for="NgoDescription" class="control-label fontsize"></label>
+                <input asp-for="NgoDescription" class="form-control fontsize" />
+                <span asp-validation-for="NgoDescription" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+
+
+                   
+                   <div class="d-flex flex-row align-items-center mb-6">
+                    
+                    <div class="form-outline flex-fill mb-0">
+                       <label asp-for="NgoAddress" class="control-label fontsize"></label>
+                <input asp-for="NgoAddress" class="form-control fontsize" />
+                <span asp-validation-for="NgoAddress" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+
+                  
+
+                   <div class="d-flex flex-row align-items-center mb-6">
+                   
+                    <div class="form-outline flex-fill mb-0">
+                       <label asp-for="ConfirmPassword" class="control-label fontsize"></label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control fontsize" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger fontsize"></span>
+                    </div>
+                  </div>
+                  <br />
+                   </div>
+                  <div class="form-check d-flex justify-content-center mb-5">
+                   @* <input
+                      class="form-check-input me-2"
+                      type="checkbox"
+                      value=""
+                      id="form2Example3c"
+                    />*@
+                   
+                  </div>
+                  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4 fontsize">
+                      <input type="submit" value="Save" class="btn btn-primary fontsize" />
+                    @*<button type="button" class="btn btn-primary btn-lg">Register</button>*@
+                  </div>
+
+                </form>
+                </div>
+              </div>
+             @* <div class="col-md-8 col-lg-4 col-xl-5 d-flex align-items-center order-1 order-lg-2 ">
+
+                <img src="~/images/ngoreg.jpg" class="img-fluid" alt="Sample image">
+
+              </div>*@
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+@* <div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NgoId" />
+            <div class="form-group">
+                <label asp-for="NgoName" class="control-label"></label>
+                <input asp-for="NgoName" class="form-control" />
+                <span asp-validation-for="NgoName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactPerson" class="control-label"></label>
+                <input asp-for="ContactPerson" class="form-control" />
+                <span asp-validation-for="ContactPerson" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgoContactNumber" class="control-label"></label>
+                <input asp-for="NgoContactNumber" class="form-control" />
+                <span asp-validation-for="NgoContactNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgoAddress" class="control-label"></label>
+                <input asp-for="NgoAddress" class="form-control" />
+                <span asp-validation-for="NgoAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgoCity" class="control-label"></label>
+                <input asp-for="NgoCity" class="form-control" />
+                <span asp-validation-for="NgoCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgoState" class="control-label"></label>
+                <input asp-for="NgoState" class="form-control" />
+                <span asp-validation-for="NgoState" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgoDescription" class="control-label"></label>
+                <input asp-for="NgoDescription" class="form-control" />
+                <span asp-validation-for="NgoDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgoEmail" class="control-label"></label>
+                <input asp-for="NgoEmail" class="form-control" />
+                <span asp-validation-for="NgoEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgoPassword" class="control-label"></label>
+                <input asp-for="NgoPassword" class="form-control" />
+                <span asp-validation-for="NgoPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                       <label asp-for="ConfirmPassword" class="control-label fontsize"></label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control fontsize" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger fontsize"></span>
+                   
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NgoSupportingdocument" class="control-label"></label>
+                <input asp-for="NgoSupportingdocument" class="form-control" />
+                <span asp-validation-for="NgoSupportingdocument" class="text-danger"></span>
+            </div>
+           @* <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" value="" class="form-control" hidden  />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Approvedstatus" class="control-label"></label>
+                <input asp-for="Approvedstatus" value="" class="form-control"disabled />
+                <span asp-validation-for="Approvedstatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div> *@
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
